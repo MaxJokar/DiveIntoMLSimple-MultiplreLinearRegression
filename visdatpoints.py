@@ -13,6 +13,7 @@ import matplotlib_inline
 
 
 
+
 # data = sns.load_dataset("studentf-mat.csv")
 data = pd.read_csv("studentf-mat.csv" , sep=";")
 print(data.head())
@@ -71,7 +72,3 @@ print(x)
 
 
 
-scaler = sklearn
-X_train = scaler.fit_transform(X_train)
-
-print(X_train)
